@@ -1,0 +1,53 @@
+/* this is a CSS comment */
+
+/* here, we change some of the default styles on our main document elements */
+html, body {
+	margin: 0;
+	background-color: rgb(238, 147, 183);
+}
+
+@media(max-width: 767px) {
+	html, body {
+		background-color: #00ff00;
+	}
+}
+
+body {
+	padding: 20px;
+}
+
+ {
+	color: #035b00;
+	position: sticky;
+	top: 60px;
+}
+	
+img[src="NOOOO.png"] {
+    border-radius: 50%;
+}
+
+
+.silly-text {
+	font-family: fantasy;
+	color: #ff0000;
+	font-size: 40px;
+	text-wrap: balance;
+}
+
+
+
+.centre-text {
+	text-align: center;
+}
+
+
+img {
+  width: 100%;
+  
+}
+
+@media(min-width: 768px) {
+  img {
+    width: 40%;
+  }
+}
